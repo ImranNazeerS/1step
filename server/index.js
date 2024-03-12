@@ -32,8 +32,8 @@ mongoose
     console.log("Could not connect to MongoDB");
   });
 
-app.listen(8000, () => {
-  console.log("Server is running on port 80");
+app.listen(3000, () => {
+  console.log("Server is running on port 3000");
 });
 
 
