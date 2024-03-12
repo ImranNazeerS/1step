@@ -5,6 +5,7 @@ import { useDispatch,useSelector } from 'react-redux';
 import OAuth from "../components/OAuth";
 import TopLoadingBar from 'react-top-loading-bar';
 import toast from "react-hot-toast";
+import logo from "../assets/logo.svg";
 
 export const Signin = () => {
 
@@ -59,7 +60,7 @@ export const Signin = () => {
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
         <img
           className="mx-auto h-10 w-auto"
-          src="/src/assets/logo.svg?color=indigo&shade=600"
+          src={logo}
           alt="Your Company"
         />
         <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
