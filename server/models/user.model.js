@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import defimage from "../assets/defaultprofile.jpg"
 
 const userSchema = new mongoose.Schema({
     username: {
@@ -18,7 +17,7 @@ const userSchema = new mongoose.Schema({
     },
     profilePicture:{
         type: String,
-        default: {defimage},
+        default:'..\assets\defaultprofile.jpg',
     },
 },{timestamps: true});
 
